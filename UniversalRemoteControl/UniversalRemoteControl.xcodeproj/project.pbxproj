@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED9C28742C8485C7009B894E /* UniversalRemoteControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C28732C8485C7009B894E /* UniversalRemoteControlApp.swift */; };
+		ED9C28782C8485C9009B894E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9C28772C8485C9009B894E /* Assets.xcassets */; };
+		ED9C287B2C8485C9009B894E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9C287A2C8485C9009B894E /* Preview Assets.xcassets */; };
+		EDA985D62CB17C600016D0B3 /* RemoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA985D52CB17C600016D0B3 /* RemoteViewModel.swift */; };
+		EDEA65BB2C9F2F0100FA4A86 /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA65BA2C9F2F0100FA4A86 /* RemoteView.swift */; };
+		EDEA65BF2C9F4DC700FA4A86 /* View+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA65BE2C9F4DC700FA4A86 /* View+Shadow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED9C28702C8485C7009B894E /* UniversalRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9C28732C8485C7009B894E /* UniversalRemoteControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalRemoteControlApp.swift; sourceTree = "<group>"; };
+		ED9C28772C8485C9009B894E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9C287A2C8485C9009B894E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED9C28812C8486B9009B894E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EDA985D52CB17C600016D0B3 /* RemoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewModel.swift; sourceTree = "<group>"; };
+		EDEA65BA2C9F2F0100FA4A86 /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
+		EDEA65BE2C9F4DC700FA4A86 /* View+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Shadow.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9C286D2C8485C7009B894E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9C28672C8485C7009B894E = {
+			isa = PBXGroup;
+			children = (
+				ED9C28722C8485C7009B894E /* UniversalRemoteControl */,
+				ED9C28712C8485C7009B894E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9C28712C8485C7009B894E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9C28702C8485C7009B894E /* UniversalRemoteControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9C28722C8485C7009B894E /* UniversalRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				ED9C28772C8485C9009B894E /* Assets.xcassets */,
+				EDEA65BD2C9F4DB100FA4A86 /* Extensions */,
+				ED9C28812C8486B9009B894E /* Info.plist */,
+				EDEA65BC2C9F4D9800FA4A86 /* Interfaces */,
+				ED9C28792C8485C9009B894E /* Preview Content */,
+				ED9C28732C8485C7009B894E /* UniversalRemoteControlApp.swift */,
+			);
+			path = UniversalRemoteControl;
+			sourceTree = "<group>";
+		};
+		ED9C28792C8485C9009B894E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED9C287A2C8485C9009B894E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDEA65BC2C9F4D9800FA4A86 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA65BA2C9F2F0100FA4A86 /* RemoteView.swift */,
+				EDA985D52CB17C600016D0B3 /* RemoteViewModel.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		EDEA65BD2C9F4DB100FA4A86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA65BE2C9F4DC700FA4A86 /* View+Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9C286F2C8485C7009B894E /* UniversalRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9C287E2C8485C9009B894E /* Build configuration list for PBXNativeTarget "UniversalRemoteControl" */;
+			buildPhases = (
+				ED9C286C2C8485C7009B894E /* Sources */,
+				ED9C286D2C8485C7009B894E /* Frameworks */,
+				ED9C286E2C8485C7009B894E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalRemoteControl;
+			packageProductDependencies = (
+			);
+			productName = UniversalRemoteControl;
+			productReference = ED9C28702C8485C7009B894E /* UniversalRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9C28682C8485C7009B894E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED9C286F2C8485C7009B894E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = ED9C286B2C8485C7009B894E /* Build configuration list for PBXProject "UniversalRemoteControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9C28672C8485C7009B894E;
+			packageReferences = (
+			);
+			productRefGroup = ED9C28712C8485C7009B894E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9C286F2C8485C7009B894E /* UniversalRemoteControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9C286E2C8485C7009B894E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9C287B2C8485C9009B894E /* Preview Assets.xcassets in Resources */,
+				ED9C28782C8485C9009B894E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9C286C2C8485C7009B894E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA985D62CB17C600016D0B3 /* RemoteViewModel.swift in Sources */,
+				EDEA65BF2C9F4DC700FA4A86 /* View+Shadow.swift in Sources */,
+				EDEA65BB2C9F2F0100FA4A86 /* RemoteView.swift in Sources */,
+				ED9C28742C8485C7009B894E /* UniversalRemoteControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED9C287C2C8485C9009B894E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED9C287D2C8485C9009B894E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED9C287F2C8485C9009B894E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniversalRemoteControl/Preview Content\"";
+				DEVELOPMENT_TEAM = K6C5P3CXYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversalRemoteControl/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Cette application nécessite l'accès au réseau local pour découvrir et contrôler des appareils.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jb.UniversalRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED9C28802C8485C9009B894E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniversalRemoteControl/Preview Content\"";
+				DEVELOPMENT_TEAM = K6C5P3CXYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversalRemoteControl/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Cette application nécessite l'accès au réseau local pour découvrir et contrôler des appareils.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jb.UniversalRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9C286B2C8485C7009B894E /* Build configuration list for PBXProject "UniversalRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9C287C2C8485C9009B894E /* Debug */,
+				ED9C287D2C8485C9009B894E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9C287E2C8485C9009B894E /* Build configuration list for PBXNativeTarget "UniversalRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9C287F2C8485C9009B894E /* Debug */,
+				ED9C28802C8485C9009B894E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED9C28682C8485C7009B894E /* Project object */;
+}
