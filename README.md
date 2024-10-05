@@ -30,3 +30,6 @@ L'application RemoteBox est une application pratique et facile à utiliser, con�
 ## Améliorations futures
 - **Compatibilité avec d'autres box** : Étendre la compatibilité à d'autres appareils.
 - **Contrôle vocal** : Ajouter la prise en charge des commandes vocales pour faciliter encore plus la navigation.
+
+## Screen
+<img src="https://github.com/user-attachments/assets/bf50afb2-cc6e-45bb-8639-b6cbeb140d43" alt="Simulator Screenshot - iPhone 16 Pro - 2024-10-05 at 17 35 28" width="50%">
